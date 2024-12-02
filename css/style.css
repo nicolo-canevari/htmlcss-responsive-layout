@@ -122,8 +122,7 @@ h3 {
     max-width: 50%;
     margin-bottom: 10px;
     margin-left: 25%;
-    display: block;
-    
+    display: block;   
 }
 
 
@@ -142,6 +141,7 @@ footer .col {
 
 .footer_link {
     color: white;
+    padding-right: 15px;
 }
 
 
@@ -187,21 +187,27 @@ footer .col {
 
     /* SECTION 2 */
 
-    #card {
+    #presentation img {
         float: left;
         margin-right: 15px;
-        width: 150px;
+        margin-left:0;
+        width: 500px;
+        height: auto;
     }
 
-    .procedimento {
+    p {
+      padding-top: 15px;
+    }
+
+    /* .procedimento {
         overflow: auto;
-    }
+    } */
 
-    /* .clearfix::after {
+    .clearfix::after {
         display: table;
         content: "";
         clear: both;
-    }     */
+    }     
 
 
 
