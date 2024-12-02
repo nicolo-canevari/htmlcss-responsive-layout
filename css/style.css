@@ -32,17 +32,27 @@ h1 {
     width: 80%;
     margin: 30px auto;
     /* DEBUG */
-    background-color:#f6f5f3;
-    max-height: max-content;
+    /* background-color:#f6f5f3;
+    max-height: max-content; */
 }
+
+/* SEZIONE 1 */
 
 h4 {
    color: grey;
    font-size: 1rem;
 }
 
+h2 {
+    /* font-size: 30px;  */
+}
+
 #info_ricetta h2 {
     font-size: 1rem;
+}
+
+.text_plus {
+    display: none;
 }
 
 img {
@@ -54,8 +64,18 @@ img {
     background-color: #ffff;
 }
 
+h5 {
+    margin: 10px;
+    font-size: 25px;
+}
+
 ul {
     list-style: none;
+    padding-bottom: 20px;
+}
+
+li {
+    margin: 10px;
 }
 
 /* .col,
@@ -68,22 +88,38 @@ ul {
 } */
 
 
-.text_plus {
-    display: none;
+  
+a {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
 }
+
+
 
 #banner {
     display: none;
 }
 
 
-#presentation img {
-    width: 100px;
-    margin-bottom: 10px;
-    display: block;
+/* SEZIONE 2 */
+
+h3 {
+    font-size: 30px;
 }
 
+#presentation img {
+    max-width: 50%;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    display: block;
+    
+}
 
+#border {
+    border: 2px solid #fb9e2c;
+    width: 70px;
+}
 
 
 /* footer */
