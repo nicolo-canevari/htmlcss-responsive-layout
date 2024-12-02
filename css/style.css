@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MOBILE FIRST */
+
+body {
+    background-color: #f6f5f3;
+    font-size: 20px;
+}
+
+
+/* HEADER */
+header {
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 20px;
+    color: #fb9e2c;
+}
+
+
+
+/* regole contenuto principale */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    /* DEBUG */
+    background-color:#f6f5f3;
+    max-height: max-content;
+}
+
+h4 {
+   color: grey;
+   font-size: 1rem;
+}
+
+#info_ricetta h2 {
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+.col_info {
+    background-color: #ffff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* .col,
+.col_video,
+.col_info {
+    /* DEBUG */
+    /* height: 150px; */
+    /* background-color: white;
+    border: solid 2px #000; */
+} */
+
+
+.text_plus {
+    display: none;
+}
+
+#banner {
+    display: none;
+}
+
+
+#presentation img {
+    width: 100px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: blueviolet;
+    /* DEBUG */
+    height: 150px;
+}
+
+
+
+
+/* versione tablet */
+@media screen and (min-width:768px) {
+
+    header {
+        text-align: left;
+        padding-left:20px;
+    }
+
+    #info_ricetta h2 {
+        /* font-size: 30px; */
+        font-size: 1.5rem;
+    }
+
+    .text_plus {
+        display: inline;
+    }
+
+    #banner {
+        display: block;
+        /* debug */
+        background-color: green;
+        height: 50px;
+    }
+
+
+    .clearfix::after {
+        display: table;
+        content: "";
+        clear: both;
+
+    }
+
+    #presentation img {
+        float: left;
+        margin-right: 10px;
+    }
+
+}
+
+
+/* versione desktop */
+@media screen and (min-width:992px) {
+
+    header {
+        text-align: left;
+        padding-left:20px;
+    }
+    
+    /* regole genrali */
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* regole parte main */
+    #info_ricetta h2 {
+        /* font-size: 40px; */
+        font-size: 2rem;
+    }
+
+
+    #info_ricetta .col_video {
+        width: 70%;
+    }
+
+    #info_ricetta .col_info {
+        width: 30%;
+    }
+
+
+
+    /* regole footer */
+    footer .col {
+        width: 40%;
+
+    }
+}
