@@ -169,13 +169,41 @@ footer .col {
     ul {
         display: flex;
         flex-wrap: wrap;
-        justify-content: around;
+    }
+
+    li {
+        padding-right: 10px;
     }
      
+    /* nav link e banner */
     nav a {
         padding: 10px 45px;
     }
 
+    #banner {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    /* SECTION 2 */
+
+    #card {
+        float: left;
+        margin-right: 15px;
+        width: 150px;
+    }
+
+    .procedimento {
+        overflow: auto;
+    }
+
+    /* .clearfix::after {
+        display: table;
+        content: "";
+        clear: both;
+    }     */
 
 
-}
+
+
+
