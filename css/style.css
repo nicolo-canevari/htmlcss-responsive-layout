@@ -98,6 +98,30 @@ nav a {
     padding: 10px; 
     border-radius: 9999px;
 }
+
+.social {
+    display: none;
+}
+
+#facebook {
+    color: blue;
+}
+
+#twitter {
+    color: rgb(9, 180, 236);
+}
+
+#instagram {
+    color: rgb(218, 67, 92);
+}
+
+#pinterest {
+    color: red;
+}
+
+#youtube {
+    color: red;
+}
  
 /* banner */
 #banner {
@@ -192,6 +216,10 @@ footer .col {
         padding: 10px 45px;
     }
 
+    .social {
+        display: none;
+    }
+
     #banner {
         display: block;
         padding-bottom: 30px;
@@ -257,10 +285,18 @@ footer .col {
     }
 
     /* nav link e banner */
+   
     nav a {
-        padding: 10px 60px;
+        padding: 10px 10px;
+        text-decoration: none;
     }
 
+    .social {
+        display: inline;
+        font-size: 15px;
+        color: black;
+    }
+    
     #banner img{
         height: 100px;
     }
